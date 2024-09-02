@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <div>
       <div className="d-flex justify-content-center gap-5 fs-4">
-        <span>Home</span>
-        <span>Movie</span>
-        <span>Contact</span>
+        <Link href = "/">Home</Link>
+        <Link href = "/movie">Movie</Link>
+        <Link href = "/contact">Contact</Link>
       </div>
       <hr />
     </div>
